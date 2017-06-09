@@ -1,0 +1,42 @@
+var user = {
+  "_id": ObjectId("098278933333333"),
+  "name":{"first":"Daniel", "last": "Arenas"},
+  "birth": new Date("12 may 1995"),
+  "about_me": "I saving the world, and build the future",
+  "mail": "dauzzyy@gmail",
+  "pwd":"23efc345g55ggfccxyz",
+  "addres":{}, 
+  "badges":{
+    "beginer": 1,
+    "guardian": 2,
+    "the_forest_king": 1
+  },
+  "events":{
+    "all_ids": [22222222,33333333,434444444],
+    "current_id": [11111]
+  }
+}
+
+var event = {
+  "_id": ObjectId("2315455555555560"),
+  "uid": 999999999,
+  "title": "Algo chido",
+  "parkid": 2315455555555560,
+  "logo":"paldpap.png",
+  "shortname": "algochi",
+  "start_date": Date("Saturday 10 June 12:00:00 AMERICA/Mexico")
+}
+
+var park = {
+  "_id": ObjectId("2315455555555560"),
+  "park_name": "Jardin Rinconada",
+  "location": {
+    "long": -98976766, 
+    "lat": -666677,
+    "state": "CDMX",
+    "id":11111,
+    "city": "Cuauthemoc"
+  },
+  "stats": {""},
+  "status": "Salvado, Salvame :/, aiiuuudaa :("
+}
