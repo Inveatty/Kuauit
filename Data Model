@@ -5,12 +5,23 @@ var user = {
   "about_me": "I saving the world, and build the future",
   "mail": "dauzzyy@gmail",
   "pwd":"23efc345g55ggfccxyz",
-  "addres":{}, 
-  "badges":{
-    "beginer": 1,
-    "guardian": 2,
-    "the_forest_king": 1
-  },
+  "address":{
+    "lat": -666.888888,
+    "long": -666.888888,
+    "postal_code": 55719
+  }, 
+  "nns" : [ [ 2816442, 0.2 ], [ 1615962, 0.047619047619047616 ], ], 
+  "fb" : { 
+    "_id" : 4808871, 
+    "name" : "Daniel Ar", 
+    "location" : "San Francisco, California", 
+    "friends" : [ 568876525, 569507467, 569559792 ], 
+  }, 
+  "badges":[
+    "beginer",
+    "guardian",
+    "the_forest_king"
+  ],
   "events":{
     "all_ids": [22222222,33333333,434444444],
     "current_id": [11111]
@@ -21,10 +32,37 @@ var event = {
   "_id": ObjectId("2315455555555560"),
   "uid": 999999999,
   "title": "Algo chido",
+  "description": "LImpiando andamos",
   "parkid": 2315455555555560,
   "logo":"paldpap.png",
   "shortname": "algochi",
-  "start_date": Date("Saturday 10 June 12:00:00 AMERICA/Mexico")
+  "start_date": Date("Saturday 10 June 12:00:00 AMERICA/Mexico"),
+  "Materials":["pala", "maquina" "xbox xD"],
+  "photos":[
+    {
+      "before": "before.jpg",
+      "after": "after.jpg",
+      "author": 098278933333333
+    },
+    {
+      "before": "before.jpg",
+      "after": "after.jpg",
+      "author": 098278933333333
+    }
+  ],
+  "comments": [
+    {
+      "comment": "Lo pasamos de lujo",
+      "Date": Date("Sunday 11 June 20:00:00 AMERICA/Mexico"),
+      "Author": 098278933333333
+    },
+    {
+      "comment": "Lo pasamos de lujo",
+      "Date": Date("Sunday 11 June 20:00:00 AMERICA/Mexico"),
+      "Author": 098278933333333
+    }
+  ],
+  "votes": 25
 }
 
 var park = {
@@ -34,9 +72,17 @@ var park = {
     "long": -98976766, 
     "lat": -666677,
     "state": "CDMX",
+    "postal_code": 55719,
     "id":11111,
     "city": "Cuauthemoc"
   },
   "stats": {""},
   "status": "Salvado, Salvame :/, aiiuuudaa :("
+}
+
+
+var orders = { 
+  "_id" : 17464215, 
+  "_uid" : 1111195, 
+  "_eid" : 799177 
 }
