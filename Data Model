@@ -1,5 +1,5 @@
 var user = {
-  "_id": ObjectId("098278933333333"),
+  "_id": 098278933333333,
   "name":{"first":"Daniel", "last": "Arenas"},
   "birth": new Date("12 may 1995"),
   "about_me": "I saving the world, and build the future",
@@ -29,7 +29,7 @@ var user = {
 }
 
 var event = {
-  "_id": ObjectId("2315455555555560"),
+  "_id": 2315455555555560,
   "uid": 999999999,
   "title": "Algo chido",
   "description": "LImpiando andamos",
@@ -66,7 +66,7 @@ var event = {
 }
 
 var park = {
-  "_id": ObjectId("2315455555555560"),
+  "_id": 2315455555555560,
   "park_name": "Jardin Rinconada",
   "location": {
     "long": -98976766, 
