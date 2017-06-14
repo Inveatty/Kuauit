@@ -36,6 +36,7 @@ var event = {
   "parkid": 2315455555555560,
   "logo":"paldpap.png",
   "shortname": "algochi",
+  "type":"reforestar" ,
   "start_date": Date("Saturday 10 June 12:00:00 AMERICA/Mexico"),
   "Materials":["pala", "maquina" "xbox xD"],
   "photos":[
